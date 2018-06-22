@@ -1,9 +1,6 @@
 import argparse
 import random
 import sys
-local = "/home/emolloy2/.local/lib/python2.7/site-packages/"
-sys.path[0] = local
-sys.path.insert(1, local + "/dendropy-4.2.0")
 import dendropy
 
 def refine(T, t):
